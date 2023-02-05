@@ -772,9 +772,10 @@ html::-webkit-scrollbar-button{
 
 @media all and (max-width:1440px){
     .heart {
-        width: 25px;
-        height: 25px;
+        width: 46px;
+        height: 46px;
         margin-top: 0;
+        
     }
     
 }
