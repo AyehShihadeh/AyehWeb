@@ -1,0 +1,1003 @@
+a{
+    text-decoration: none;
+}
+
+a{
+    
+    color: rgb(172, 29, 77);
+}
+
+a:hover{
+    color: rgb(207, 87, 127);
+}
+
+
+
+li{
+    margin: 15px 15px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+nav{
+    position: fixed;
+
+    height: 60px;
+    width: 99%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgb(172, 29, 77, .2);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 7px;
+    border-style: double;
+    border-color: rgb(187, 59, 102);
+
+    margin-top: 5px;
+
+    overflow: visible;
+
+}
+
+
+.nav-info{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 20px;
+
+    
+}
+
+.heart{
+    width: 50px;
+    height: 50px;
+
+    margin-top: 15px;
+    padding: 5px;
+  
+}
+
+.heart:hover{
+    width: 55px;
+    height: 55px;
+}
+
+h1{
+    font-size: 130px;
+    color: rgb(216, 100, 139);
+    text-shadow: -2px 0 rgb(151, 54, 87), 0 3px rgb(155, 47, 83), 3px 0 rgb(170, 53, 92), 0 -2px rgb(160, 55, 90);
+    font-weight: 900px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 0px;
+}
+
+h1:hover{
+    -webkit-text-stroke: 2px rgb(180, 75, 110);
+
+    color:transparent;
+    text-shadow: none;
+}
+
+.intro{
+    width: 70%;
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 20px;
+    margin-top: 140px;
+    margin-bottom: 200px;
+    
+}
+
+.intro-paragraph{
+    color: rgb(168, 75, 106);
+    text-shadow: -1px 0 palevioletred, 0 .5px palevioletred, .5px 0 palevioletred, 0 -.5px palevioletred ;
+    font-weight: 200;
+    height: 450px;
+    width: 1000px;
+    border-radius: 10px;
+    font-size: 40px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 5px 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+
+}
+ 
+
+.hire-me-button{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(235, 39, 137);
+    text-shadow: -1px 0 palevioletred, 0 .5px palevioletred, .5px 0 palevioletred, 0 -.5px palevioletred ;
+    font-size: 24px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(204, 60, 108);
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 190px;
+    background-color: rgba(216, 91, 132, 0.3);
+    letter-spacing: 3px;
+  
+}
+
+.hire-me-button:hover{
+
+    -webkit-transition: 0.5s;
+
+    -o-transition: 0.5s;
+
+    transition: 0.5s;
+    background-color: transparent;
+    border-color: rgb(187, 81, 117);
+
+}
+
+.intro-picture{
+    width: 300px;
+    height: 470px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 15px;
+    border-style: dotted;
+    border-color: rgb(206, 80, 122);
+    border-radius: 30%;
+    margin: 10px;
+}
+
+
+.about-me{
+    height: 800px;
+    width: 100%;
+    background-color:  rgb(172, 29, 77, .3);
+    color: palevioletred;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 10px;
+    border-style: dotted;
+    border-color: palevioletred; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-left: none;
+    border-right: none;
+    }
+
+
+.about-me-title{
+    font-size: 40px;
+    height: 50px;
+    width: 300px;
+    color: rgb(192, 51, 98);
+    margin: 20px;
+}
+
+.about-me-paragraph{
+    height: 200px;
+    width: 900px;
+    color: white;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.technical-title{
+    color: rgb(192, 51, 98);
+    font-size: 40px;
+    height: 50px;
+    width: 400px;
+    margin: 10px;
+}
+
+.technical-paragraph{
+    height: 200px;
+    width: 500px;
+    color: white;
+    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 20px;
+}
+
+
+
+
+.about-me-left{
+    height: 650px;
+    width: 1000px;
+    /* background-color: rgb(175, 66, 111); */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+}
+
+.about-me-seperation{
+    height: 5px;
+    width: 600px;
+    background-color: rgb(211, 68, 116, .5);
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20%;
+}
+
+
+.contact-me{
+    margin-top: 20px;
+    height: 800px;
+    width: 100%;
+    background-color:  rgb(172, 29, 77, .3);
+    color: palevioletred;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 10px;
+    border-style: dotted;
+    border-color: palevioletred; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    border-left: none;
+    border-right: none;
+    margin-bottom: none;
+
+
+}
+
+.contact-socials-div{
+    height: 600px;
+    width: 250px;
+}
+
+.contact-line{
+    height: 450px;
+    width: 8px;
+    background-color: rgb(231, 69, 123, .5) ;
+    border-radius: 30px;
+
+}
+
+.github-div-word{
+    font-size: 35px;
+    color: rgb(255, 184, 207);
+    height: 50px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.github-div{
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.project-section{
+    height: 800px;
+    width: 100%;
+    background-color:  rgb(245, 171, 184);
+    color: palevioletred;
+    margin-top: 30px;
+
+}
+
+
+
+
+.githublogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.githublogo:hover{
+    width: 90px;
+    height: 90px;
+}
+
+.github-div:hover{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(231, 69, 123, .5);
+    border-radius: 50px;
+}
+
+
+.linkdin-div{
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.linkdin-div:hover{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(231, 69, 123, .5);
+    border-radius: 50px;
+}
+
+.linkdinlogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.linkdinlogo:hover{
+    width: 90px;
+    height: 90px;
+}
+
+.linkdin-div-word{
+    font-size: 35px;
+    color: rgb(255, 184, 207);
+    height: 50px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.insta-div{
+    height: 200px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.insta-div:hover{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(231, 69, 123, .5);
+    border-radius: 50px;
+}
+
+.instalogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.instalogo:hover{
+    width: 90px;
+    height: 90px;
+}
+
+.insta-div-word{
+    font-size: 35px;
+    color: rgb(255, 184, 207);
+    height: 50px;
+    width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+}
+
+.email-div{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(231, 69, 123, .5);
+    color: pink;
+    padding: 10px;
+    margin: 5px;
+
+    -webkit-box-sizing: border-box;
+
+            box-sizing: border-box;
+    border: 10px;
+    border-style: double;
+    border-color: rgb(231, 69, 123);
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.email-header{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 70px;
+        
+}
+
+/* for name and email input textboxes */
+.email-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 400px;
+    height: 25px;
+    margin-bottom: 10px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: 150px;
+
+}
+
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgb(245, 171, 184);
+    margin: 0;
+}
+
+
+.footer1{
+    background-color: rgb(245, 171, 184);
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: 3px;
+}
+
+
+.seperation-div{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(245, 171, 184) ;
+    border-radius: 50px;
+}
+
+
+/* Single-direction drop shadow */
+hr{
+    height: 12px;
+    border: 0;
+    -webkit-box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+            box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+u{
+    -webkit-text-decoration-color: rgb(241, 207, 207);
+            text-decoration-color: rgb(241, 207, 207);;
+}
+
+
+html::-webkit-scrollbar{
+    width: .8vw;
+    border: 2px solid rgb(236, 52, 144);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(236, 52, 144);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: rgb(240, 116, 178);
+}
+
+html::-webkit-scrollbar-button{
+    background-color: rgb(236, 52, 144)
+    
+}
+
+.heart-bullet{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.submit-button{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 184, 207);
+    text-shadow: -1px 0 palevioletred, 0 .5px palevioletred, .5px 0 palevioletred, 0 -.5px palevioletred ;
+    font-size: 16px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(255, 184, 207);
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 100px;
+    background-color: rgb(218, 63, 114);
+    letter-spacing: 3px;
+
+
+}
+
+.submit-button:hover{
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    background-color: transparent;
+    color: rgb(180, 48, 92);
+    border-color: rgb(180, 48, 92);
+    
+}
+
+
+.textbox-style1{
+    background-position: 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(194, 53, 100);
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px rgb(194, 53, 100, 0.8);
+            box-shadow: 5px 5px 5px rgb(194, 53, 100, 0.8);
+    background-color: rgb(253, 170, 198);
+    color: rgb(255, 255, 255);
+
+}
+
+
+.textbox-style1:hover {
+    background-color: rgb(248, 191, 210);
+}
+
+.textbox-style2{
+    background-position: 10px 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(194, 53, 100);
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px rgb(194, 53, 100, 0.8);
+            box-shadow: 5px 5px 5px rgb(194, 53, 100, 0.8);
+    background-color: rgb(253, 170, 198);
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 100%;
+}
+
+.textbox-style2:hover {
+    background-color: rgb(248, 191, 210);
+}
+
+.ty-paragraph{
+    color:rgb(168, 75, 106);
+    font-size: 24px;
+}
+
+.footer2{
+    background-color: rgb(172, 29, 77, .3);
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: 3px;
+    border-top: 3px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: dotted;
+    border-color: rgb(172, 29, 77, .6);
+    position: absolute;
+    bottom: 0;
+}
+
+.ty-body{
+    position: relative;
+}
+
+
+.home-button{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(235, 39, 137);
+    text-shadow: -1px 0 palevioletred, 0 .5px palevioletred, .5px 0 palevioletred, 0 -.5px palevioletred ;
+    font-size: 16px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(204, 60, 108);
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: auto;
+    background-color: rgba(216, 91, 132, 0.3);
+    letter-spacing: 2px;
+  
+}
+
+.home-button:hover{
+
+    -webkit-transition: 0.5s;
+
+    -o-transition: 0.5s;
+
+    transition: 0.5s;
+    background-color: transparent;
+    border-color: rgb(187, 81, 117);
+
+}
+
+@media all and (max-width:1440px){
+    .heart {
+        width: 46px;
+        height: 46px;
+        margin-top: 0;
+    }
+}
+@media all and (max-width:1199px){
+    .about-me-paragraph {
+        width: 660px;
+    }
+    .intro-paragraph {
+        width: 100%;
+    }
+    nav {
+        position: initial;
+        height: auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .heart {
+        width: 40px;
+        height: 40px;
+    }
+    .nav-info {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0;
+    }
+    .intro {
+        width: 70%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 140px;
+    }
+    .hire-me-button {
+        width: auto;
+    }
+    .nav-info {
+        padding: 0;
+    }
+}
+@media all and (max-width:991px){
+    .about-me {
+        height: auto;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .about-me-left {
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .about-me-title {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .about-me-paragraph {
+        width: 100%;
+        height: auto;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+    .technical-title {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .technical-paragraph {
+        height: auto;
+        width: auto;
+        text-align: left;
+        margin: auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .about-me-seperation {
+        width: 600px;
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+        margin: auto;
+    }
+    h1 {
+        font-size: 88px;
+    }
+    .project-section {
+        height: auto;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .email-div {
+        width: 660px;
+        height: 600px;
+        margin: auto;
+    }
+    textarea {
+        width: 100% !important;
+    }
+    .intro {
+        width: 70%;
+        height: auto;
+        margin-top: 140px;
+        margin-bottom: 60px;
+    }
+    .contact-me {
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    .contact-socials-div {
+        height: auto;
+        width: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .heart {
+        width: 38px;
+        height: 38px;
+    }
+    .contact-line {
+        height: auto;
+    }
+    .email-row {
+        margin-left: 0;
+    }
+}
+@media all and (max-width:767px){
+    .github-div {
+        height: 160px;
+        width: 160px;
+    }
+    .linkdin-div {
+        height: 160px;
+        width: 160px;
+    }
+    .insta-div {
+        height: 160px;
+        width: 160px;
+    }
+    .contact-me {
+        padding: 0 15px;
+    }
+    .email-div {
+        width: 100%;
+        height: auto;
+    }
+}
+@media all and (max-width:575px){
+    nav {
+        padding-top: 6px;
+    }
+    .heart {
+        width:24px;
+        height: 24px;
+        padding: 3px;
+        margin: 0;
+    }
+    .nav-info {
+        font-size: 16px;
+    }
+    .intro {
+        margin-top: 40px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .intro-paragraph {
+        width: 100%;
+        height: auto;
+    }
+    .intro-paragraph {
+        font-size: 30px;
+    }
+    .hire-me-button {
+        font-size: 20px;
+        padding: 10px 30px;
+        width: auto;
+    }
+    .about-me {
+        padding: 0 15px;
+    }
+    .about-me-paragraph {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .project-section h1 {
+        font-size: 45px;
+        padding: 0 15px;
+    }
+    .contact-socials-div {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .github-div-word {
+        font-size: 25px;
+    }
+    .linkdin-div-word {
+        font-size: 25px;
+    }
+    .insta-div-word {
+        font-size: 25px;
+    }
+    .email-row {
+        display: block;
+        width: 100%;
+        height: 25px;
+        margin-left: 0;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .textbox-style1 {
+        width: 100%;
+        margin-bottom: 6px;
+    }
+    .about-me-seperation {
+        width: 100%;
+    }
+}
