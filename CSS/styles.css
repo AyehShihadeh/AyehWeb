@@ -775,12 +775,9 @@ html::-webkit-scrollbar-button{
         width: 46px;
         height: 46px;
         margin-top: 0;
-        display: none;
+        display: flex;
     }
     
-    body{
-        background-color: white:
-    }
 }
 @media all and (max-width:1199px){
     .about-me-paragraph {
