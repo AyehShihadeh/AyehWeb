@@ -784,6 +784,10 @@ html::-webkit-scrollbar-button{
 
     .contact-me{
         border: 5px;
+        border-style: dotted;
+        border-color: palevioletred; 
+        border-left: none;
+        border-right: none;
     }
     
 }
