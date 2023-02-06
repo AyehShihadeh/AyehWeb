@@ -778,6 +778,14 @@ html::-webkit-scrollbar-button{
         
     }
     
+    .email-div{
+        margin-bottom: 10px;
+    }
+
+    .contact-me{
+        border: 5px;
+    }
+    
 }
 @media all and (max-width:1199px){
     .about-me-paragraph {
