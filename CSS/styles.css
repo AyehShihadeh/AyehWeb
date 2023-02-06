@@ -780,7 +780,7 @@ html::-webkit-scrollbar-button{
     
     .email-div{
         margin-bottom: 20px;
-        height: 550px;
+        height: 450px;
     }
     
     .github-div {
@@ -794,6 +794,14 @@ html::-webkit-scrollbar-button{
     }
 
     .contact-me{
+        border: 5px;
+        border-style: dotted;
+        border-color: palevioletred; 
+        border-left: none;
+        border-right: none;
+    }
+    
+    .about-me{
         border: 5px;
         border-style: dotted;
         border-color: palevioletred; 
