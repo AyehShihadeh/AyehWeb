@@ -779,7 +779,18 @@ html::-webkit-scrollbar-button{
     }
     
     .email-div{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        height: 550px;
+    }
+    
+    .github-div {
+       margin-top: 10px;
+    }
+    .linkdin-div {
+        margin-top: 10px;
+    }
+    .insta-div {
+        margin-top: 10px;
     }
 
     .contact-me{
