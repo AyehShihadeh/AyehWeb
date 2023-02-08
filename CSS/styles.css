@@ -20,6 +20,7 @@ li{
 html{
     scroll-behavior: smooth;
 }
+
 *{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -380,8 +381,8 @@ h1:hover{
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 1500px;
-    height: 900px;
+    width: auto;
+    height: auto;
     background-color: rgb(236, 149, 165);
     padding: 10px;
     margin-top: 30px;
@@ -391,6 +392,7 @@ h1:hover{
 }
 
 .project-card-outter{
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -403,19 +405,6 @@ h1:hover{
 
 }
 
-.project-card-inner{
-    border: 3px;
-    border-style: solid;
-    border-color: black;
-    height: 200px;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-
-
-}
 
 .project-image{
     background-color: rgb(253, 178, 203);
@@ -839,7 +828,7 @@ html::-webkit-scrollbar-button{
         margin-top: 0;
         
     }
-    
+
     .github-div {
        margin-top: 10px;
     }
@@ -865,6 +854,10 @@ html::-webkit-scrollbar-button{
         border-left: none;
         border-right: none;
     }
+
+
+
+
     
 }
 @media all and (max-width:1199px){
@@ -903,6 +896,21 @@ html::-webkit-scrollbar-button{
     .nav-info {
         padding: 0;
     }
+
+    .about-me-left{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 750px;
+        padding-bottom: none;
+        margin-bottom: none;
+
+    }
+
+    .about-me-paragraph{
+        height: auto;
+    }
+
 }
 @media all and (max-width:991px){
     .about-me {
@@ -951,23 +959,8 @@ html::-webkit-scrollbar-button{
     h1 {
         font-size: 88px;
     }
-    .project-section {
-        height: auto;
-        width: 100%;
-        padding-bottom: 30px;
-    }
-    
-    .project-container{
-        height: auto;
-        width: auto;
-    }
 
-    .project-card-outter{
-        height: auto;
-        width: auto;
-        display: block;
-    }
-    
+
     .email-div {
         width: 660px;
         height: 600px;
@@ -984,7 +977,7 @@ html::-webkit-scrollbar-button{
     }
     .contact-me {
         margin-top: 20px;
-        height: auto;
+        height: 1000px;
         width: 100%;
         display: block;
     }
@@ -1029,6 +1022,13 @@ html::-webkit-scrollbar-button{
         width: 100%;
         height: auto;
     }
+    .about-me-seperation {
+        width: 70%;
+    }
+
+
+
+
 }
 @media all and (max-width:575px){
     nav {
@@ -1046,7 +1046,8 @@ html::-webkit-scrollbar-button{
     .intro {
         margin-top: 40px;
         width: 100%;
-        padding: 0 15px;
+        padding: 2px;
+
     }
     .intro-paragraph {
         width: 100%;
@@ -1055,6 +1056,11 @@ html::-webkit-scrollbar-button{
     .intro-paragraph {
         font-size: 30px;
     }
+
+    .h1{
+        font-size: 60px;
+    }
+
     .hire-me-button {
         font-size: 20px;
         padding: 10px 30px;
@@ -1100,6 +1106,27 @@ html::-webkit-scrollbar-button{
         margin-bottom: 6px;
     }
     .about-me-seperation {
-        width: 100%;
+        width: 70%;
     }
+
+    .contact-me{
+        height: 1150px;
+    }
+
+}
+
+@media all and (max-width:362px){
+    .intro{
+        width: 100%;
+        margin: 1px;
+    }
+
+    h1{
+        font-size: 80px;
+    }
+
+    .intro-picture{
+        width: auto;
+    }
+
 }
