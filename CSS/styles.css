@@ -956,6 +956,18 @@ html::-webkit-scrollbar-button{
         width: 100%;
         padding-bottom: 30px;
     }
+    
+    .project-container{
+        height: auto;
+        width: auto;
+    }
+
+    .project-card-outter{
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    
     .email-div {
         width: 660px;
         height: 600px;
