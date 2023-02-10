@@ -1124,7 +1124,8 @@ html::-webkit-scrollbar-button{
 
 @media all and (max-width: 495px){
     #contactinfo2{
-        display: none;
+        height: 1px;
+        margin-top:15px;
     }
 }
 
