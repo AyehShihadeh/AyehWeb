@@ -1198,7 +1198,7 @@ html::-webkit-scrollbar-button{
 }
 
 
-@media all and (max-width:382px){
+@media all and (max-width:383px){
     .project-section{
         height: 1000px;
     }
