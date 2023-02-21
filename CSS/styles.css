@@ -1158,7 +1158,7 @@ html::-webkit-scrollbar-button{
 
     .project-card-outter{
         width: 170px;
-        height: 260px;
+        height: 240px;
     }
 
      .project-title{
@@ -1189,7 +1189,7 @@ html::-webkit-scrollbar-button{
 
 }
 
-@media all and (max-width: 564px){
+@media all and (max-width: 563px){
     .project-section{
         height: 700px;
     }
@@ -1205,15 +1205,15 @@ html::-webkit-scrollbar-button{
 
 @media all and (max-width:383px){
     .project-section{
-        height: 700px;
-    }
-}
-
-@media all and (max-width:381px){
-    .project-section{
         height: 1000px;
     }
 }
+
+/* @media all and (max-width:382px){
+    .project-section{
+        height: 1000px;
+    }
+} */
 
 
 @media all and (max-width:362px){
