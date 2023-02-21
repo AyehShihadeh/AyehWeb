@@ -432,7 +432,7 @@ h1:hover{
 }
 
 .project-title{
-    font-size: 30px;
+    font-size: 2rem;
     color: rgb(204, 37, 92);
 }
 
@@ -1034,6 +1034,7 @@ html::-webkit-scrollbar-button{
 
 }
 
+
 @media all and (max-width:805px){
     .project-section{
         height: 1000px;
@@ -1160,8 +1161,12 @@ html::-webkit-scrollbar-button{
         height: 260px;
     }
 
-    .project-title{
-        font-size: 20px;
+     .project-title{
+        font-size: 1rem;
+    } 
+
+    .project-description{
+        font-size: 14px;
     }
 
     .project-line{
@@ -1200,6 +1205,12 @@ html::-webkit-scrollbar-button{
 
 @media all and (max-width:383px){
     .project-section{
+        height: 700px;
+    }
+}
+
+@media all and (max-width:381px){
+    .project-section{
         height: 1000px;
     }
 }
@@ -1222,5 +1233,6 @@ html::-webkit-scrollbar-button{
     .email-header h1{
         font-size: 35px;
     }
+
 
 }
