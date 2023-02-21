@@ -1033,6 +1033,14 @@ html::-webkit-scrollbar-button{
     }
 
 }
+
+@media all and (max-width:805px){
+    .project-section{
+        height: 1000px;
+    }
+}
+
+
 @media all and (max-width:767px){
     .github-div {
         height: 160px;
