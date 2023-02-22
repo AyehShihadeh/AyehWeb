@@ -364,7 +364,9 @@ h1:hover{
 }
 
 .project-section{
-    height: 900px;
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
     width: 100%;
     background-color:  rgb(245, 171, 184);
     color: palevioletred;
@@ -1035,13 +1037,6 @@ html::-webkit-scrollbar-button{
 }
 
 
-@media all and (max-width:805px){
-    .project-section{
-        height: 1000px;
-    }
-}
-
-
 @media all and (max-width:767px){
     .github-div {
         height: 160px;
@@ -1151,11 +1146,6 @@ html::-webkit-scrollbar-button{
         height: 1150px;
     }
 
-
-    .project-section{
-        height: 500px;
-    }
-
     .project-card-outter{
         width: 170px;
         height: 240px;
@@ -1189,11 +1179,6 @@ html::-webkit-scrollbar-button{
 
 }
 
-@media all and (max-width: 563px){
-    .project-section{
-        height: 700px;
-    }
-}
 
 @media all and (max-width: 495px){
     #contactinfo2{
@@ -1201,19 +1186,6 @@ html::-webkit-scrollbar-button{
         margin-top:15px;
     }
 }
-
-
-@media all and (max-width:383px){
-    .project-section{
-        height: 1000px;
-    }
-}
-
-/* @media all and (max-width:382px){
-    .project-section{
-        height: 1000px;
-    }
-} */
 
 
 @media all and (max-width:362px){
