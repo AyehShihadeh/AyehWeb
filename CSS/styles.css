@@ -268,7 +268,6 @@ h1:hover{
 .about-me-left{
     height: 650px;
     width: 1000px;
-    /* background-color: rgb(175, 66, 111); */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -370,10 +369,19 @@ h1:hover{
     width: 100%;
     background-color:  rgb(245, 171, 184);
     color: palevioletred;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 }
 
@@ -391,25 +399,41 @@ h1:hover{
 }
 
 .project-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     width: auto;
     height: auto;
     background-color: rgb(236, 149, 165);
     padding: 10px;
     margin-top: 30px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 
 }
 
 .project-card-outter{
     margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: 380px;
     width: 250px;
     background-color: rgb(235, 130, 150);
@@ -422,9 +446,15 @@ h1:hover{
 .project-image{
     background-color: rgb(253, 178, 203);
     border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
@@ -932,9 +962,12 @@ html::-webkit-scrollbar-button{
     }
 
     .about-me-left{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         height: 750px;
         padding-bottom: none;
         margin-bottom: none;
