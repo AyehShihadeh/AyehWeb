@@ -470,6 +470,10 @@ h1:hover{
     color: rgb(204, 37, 92);
 }
 
+.RPS-title{
+    font-size: 28px;
+}
+
 .project-line{
     height: 2px;
     width: 200px;
